@@ -22,5 +22,9 @@
     "url": "https://github.com/verhalt-lib/verhalt.js-types/issues"
   },
   "homepage": "https://github.com/verhalt-lib/verhalt.js-types#readme",
-  "description": ""
+  "description": "",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
