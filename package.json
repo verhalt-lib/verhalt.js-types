@@ -2,14 +2,14 @@
   "name": "@verhalt/types",
   "version": "1.0.0",
   "main": "src/index.d.ts",
-  "exports" : {
+  "exports": {
     ".": {
       "import": "./src/index.d.ts",
       "types": "./src/index.d.ts"
     }
   },
   "scripts": {
-    "build": "rimraf dist && tsc"
+
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,5 @@
     "url": "https://github.com/verhalt-lib/verhalt.js-types/issues"
   },
   "homepage": "https://github.com/verhalt-lib/verhalt.js-types#readme",
-  "description": "",
-  "devDependencies": {
-    "rimraf": "^6.0.1"
-  }
+  "description": ""
 }
