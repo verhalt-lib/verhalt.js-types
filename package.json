@@ -4,8 +4,8 @@
   "main": "src/index.d.ts",
   "exports": {
     "./lib": {
-      "import": "./src/index.d.ts",
-      "types": "./src/index.d.ts"
+      "import": "./src/lib/index.d.ts",
+      "types": "./src/lib/index.d.ts"
     }
   },
   "scripts": {
