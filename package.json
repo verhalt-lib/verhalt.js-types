@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && tsc"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
     "url": "https://github.com/verhalt-lib/verhalt.js-types/issues"
   },
   "homepage": "https://github.com/verhalt-lib/verhalt.js-types#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  }
 }
