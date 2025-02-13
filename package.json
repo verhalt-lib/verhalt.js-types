@@ -1,7 +1,13 @@
 {
   "name": "@verhalt/types",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "src/index.d.ts",
+  "exports" : {
+    ".": {
+      "import": "./src/index.d.ts",
+      "types": "./src/index.d.ts"
+    }
+  },
   "scripts": {
     "build": "rimraf dist && tsc"
   },
